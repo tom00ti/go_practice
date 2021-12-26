@@ -17,3 +17,27 @@ git branch -M main
 git push -u origin main
 …or import code from another repository
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+
+go は　なにがいいのか？
+マルチすレディング
+pythonやÇを共存させられる。
+学びやすい
+早い
+リソースが少ない
+コンパイルが一つのバイナリでできる。
+
+
+パッケージフォルダを初期化する。
+
+ti  (e) base   master  ~  GitHub  go_practice  booking-app  go mod init booking-app
+go: creating new go.mod: module booking-app
+go: to add module requirements and sums:
+        go mod tidy
+
+goはどこからプログラムを走らせるか宣言する必要がある。
+　
+変数はどこかで使われてないとエラーになる。厳格性がある
+
+変数はデータタイプが必要
+
